@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { CartContext } from "./CartContext";
 import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { Link } from "react-router-dom";
+import arregloLibros from "./json/LibrosOLD.json";
 
 const Checkout = () => {
     const {cart, clear, getCountProducts, getSumProducts} = useContext(CartContext);
@@ -39,7 +40,7 @@ const Checkout = () => {
             setEmail("");
             setTelefono("");
             clear();
-        });
+        }); console.log(data.id)
     }
 
     if (getCountProducts() == 0 && !orderId) {

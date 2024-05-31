@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { collection, getDocs, getFirestore, query, where } from "firebase/firestore";
 import ItemList from "./ItemList";
 import Loading from "./Loading";
+//import arregloLibros from "./json/LibrosOLD.json";
 
 const ItemListContainer = () =>{
     const [libro, setLibro] = useState([]);
@@ -21,8 +22,9 @@ const ItemListContainer = () =>{
         });
     }, [id]);
 
-    /*
+/*  
     useEffect( () => {
+        console.log("ID-ItemListContainer",id)
         const promesa = new Promise(completado =>{
             setTimeout(() => {
                completado(id ? arregloLibros.filter(genero =>genero.genero == id) : arregloLibros);
@@ -32,8 +34,9 @@ const ItemListContainer = () =>{
         promesa.then( respuesta=> {
                 setLibro(respuesta);
         });
+        console.log("ID-ItemListContainer-2",id)
     },[id])
-    */
+  */ 
     return(
         <div className="container">
             <div className="row my-5">

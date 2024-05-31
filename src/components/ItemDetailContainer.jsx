@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-//import arregloLibros from "./json/LibrosOLD.json";
+/*import arregloLibros from "./json/LibrosOLD.json";*/
 import ItemDetail from "./ItemDetail";
 import { doc, getDoc, getFirestore, collection } from "firebase/firestore";
 
@@ -9,11 +9,10 @@ const ItemDetailContainer = () =>{
     const [libro, setLibro] = useState();
     const {id} = useParams();
    
-  
    useEffect(() => {
-    console.log("ItemDetailContiner", "0KQuUMz7AfaOcw26p4Vs");
+    console.log("ItemDetailContiner", id);
         const db = getFirestore();
-        const docRef = doc(db, "libros", "0KQuUMz7AfaOcw26p4Vs");
+        const docRef = doc(db, "libros", id);
 
         getDoc(docRef).then(snapShot => {
             if (snapShot.exists()) {
@@ -26,11 +25,12 @@ const ItemDetailContainer = () =>{
 
 /*
     useEffect(() => {
+        console.log("ID:",id, arregloLibros);
         const promesa = new Promise(completado => {
             setTimeout(() => {               
                 completado(arregloLibros.find(buscaLibro => buscaLibro.codigo_libro == parseInt(id)) );
             }, 2000)
-            setVisible(false);
+       
         });
         
         promesa.then(respuesta => {
@@ -38,6 +38,7 @@ const ItemDetailContainer = () =>{
         })
     }, [id])
 */
+
     return(
             <div>
                 <ItemDetail libro = {libro} /> 

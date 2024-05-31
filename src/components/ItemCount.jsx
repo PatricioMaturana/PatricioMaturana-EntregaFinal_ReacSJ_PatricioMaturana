@@ -6,24 +6,6 @@ const ItemCount = ({stock, onAdd}) =>{
     const [existencia, setStock] = useState(stock);
     const [visible, setVisible] = useState(true);
 
-    const comprar2 = () => {
-       /* setStock(existencia-contador);
-       
-        if(existencia-contador==0){
-            setContador(0);
-        }else{setContador(1);}
-        */
-
-        if(contador <= existencia){
-            setStock(existencia-contador);
-            onAdd(contador);
-            if(existencia-contador==0){
-                setContador(0);
-            }else{setContador(1);}
-            setVisible(false);
-        }
-    }
-   
     const aumenta = ()=>{
     if (contador < existencia) { 
         setContador(contador + 1); }

@@ -1,6 +1,5 @@
 [
-      {
-        "id":"1",
+      { 
         "titulo": "El enigma sagrado",
         "autor": "Christian Jacq",
         "genero": "Misterio",
@@ -12,8 +11,7 @@
         "descripcion":" Christian Jacq. Misterio. Un apasionante viaje en busca de la verdad detrás de los misterios más antiguos.",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3JhdENon2YLMvdi4SYTbV49eq6GPdu8HcxWZibeBOCQucvXKzy8QRhx44RUuLR72iJ8&usqp=CAU"
       },
-      {
-        "id":"2",
+      {        
         "titulo": "La piedra de luz",
         "autor": "Christian Jacq",
         "genero": "Novela",
@@ -26,7 +24,6 @@
         "imagen": "https://m.media-amazon.com/images/I/51LJ7u9wa5L._SL500_.jpg"
       },
       {
-        "id":"3",
         "titulo": "Ramsés: El hijo de la luz",
         "autor": "Christian Jacq",
         "genero": "Novela",
@@ -39,7 +36,6 @@
         "imagen": "https://www.greenlibros.com/cdn/shop/products/e0454a12-60c8-40c0-84a0-81a2c7dde50c-53_19420366_0_christianjacqramsselhijodelalu_1024x1024.jpg?v=1688153410"
       },
       {
-        "id":"4",
         "titulo": "El médico",
         "autor": "Noah Gordon",
         "genero": "Novela",
@@ -52,7 +48,6 @@
         "imagen": "https://i.ebayimg.com/images/g/4HsAAOSw3MNkg6Id/s-l960.jpg"
       },
       {
-        "id":"5",
         "titulo": "Los pilares de la Tierra",
         "autor": "Ken Follett",
         "genero": "Novela",
@@ -65,7 +60,7 @@
         "imagen": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT3ScjvrrGTMBykIWjUGXm_e_BDa_eyV2tKXNF7-OvNbny5v0bypJUU_i-pNyKXc4OHhqz4S1RDkQdKvC83f8cJBzJOh4C2oV_nr2I_PbIK&usqp=CAc"
       },
       {
-        "id":"6",
+        
         "titulo": "La Sombra del Viento",
         "autor": "Carlos Ruiz Zafón",
         "genero": "Misterio",
@@ -78,7 +73,7 @@
         "imagen": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTmctzrSjg-TVuwsyeZQwy6A1ApSxewn3_WGe_jqX0OGLE_ZKM-MYojx7lvsqkNiGYRvrRA4-1rPzKLIliMI3xKPzGSbwefFJ9AWg2oV8-FCmblMIZowL8dOnaVSNlo40NqSf60qQY&usqp=CAc"
       },
       {
-        "id":"7",
+        
         "titulo": "Del Hobbit",
         "autor": "J.R.R. Tolkien",
         "genero": "Fantasía",
@@ -91,7 +86,6 @@
         "imagen": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR7WuGpf0-sId23rMRkbj8hsuaBtOD6lUDYE523m2qRTLCqTnAowSjWk-NsExpFE_rODrDs8XZbaPrkIr_0gMoWOxfC9AwqX-d3JZNQR7gUR7IQP_W2DRhh&usqp=CAc"
       },
       {
-        "id":"8",
         "titulo": "El nombre del viento",
         "autor": "Patrick Rothfuss",
         "genero": "Fantasía",
@@ -104,7 +98,6 @@
         "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/fa/3c/fa3cd0450f8f59f3e4dcf35b4e0f8b71.jpg"
       },
       {
-        "id":"9",
         "titulo": "Cazadores de sombras: Ciudad de hueso",
         "autor": "Cassandra Clare",
         "genero": "Fantasía",
@@ -117,7 +110,6 @@
         "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/b5/e4/b5e4f0f82c7df83d073462f6dea866ad.jpg"
       },
       {
-        "id":"10",
         "titulo": "El cuento de la criada",
         "autor": "Margaret Atwood",
         "genero": "Ciencia ficción",
@@ -130,7 +122,6 @@
         "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/9e/de/9ede512123e015bb390a10ba35f8d138.jpg"
       },
       {
-        "id":"11",
         "titulo": "Ankor",
         "autor": "Jorge Angel Livraga",
         "genero": "Filosofia",
@@ -143,7 +134,6 @@
         "imagen": "https://m.media-amazon.com/images/I/61GuCAsNsdL._SY522_.jpg"
       },
       {
-        "id":"12",
         "titulo": "El misterio de la casa encantada",
         "autor": "Laura Gómez",
         "genero": "Misterio",
@@ -156,7 +146,6 @@
         "imagen": "https://m.media-amazon.com/images/I/41Kjz3hahTL._SX342_SY445_.jpg"
       },
       {
-        "id":"13",
         "titulo": "Viaje a lo desconocido",
         "autor": "Carlos Ramírez",
         "genero": "Aventura",
@@ -169,7 +158,6 @@
         "imagen": "https://img2.rtve.es/p/105091/imgbackground/?h=320"
       },
       {
-        "id":"14",
         "titulo": "El secreto del bosque",
         "autor": "Ana Martínez",
         "genero": "Fantasía",
@@ -182,7 +170,6 @@
         "imagen": "https://m.media-amazon.com/images/I/51iGyZOSC-L._SX342_SY445_.jpg"
       },
       {
-        "id":"15",
         "titulo": "Amor en París",
         "autor": "María Rodríguez",
         "genero": "Romance",
@@ -195,7 +182,6 @@
         "imagen": "https://m.media-amazon.com/images/I/41X3Ae9ipuL._SY445_SX342_.jpg"
       },
       {
-        "id":"16",
         "titulo": "La máquina del tiempo",
         "autor": "H.G. Wells",
         "genero": "Ciencia Ficción",
@@ -208,7 +194,6 @@
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_773883-MLA32137917401_092019-F.webp"
       },
       {
-        "id":"17",
         "titulo": "Aprendiendo JavaScript",
         "autor": "Juan Pérez",
         "genero": "Tecnología",
@@ -221,7 +206,6 @@
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_967141-MLU69767757320_062023-F.webp"
       },
       {
-        "id":"18",
         "titulo": "Historia de la pintura",
         "autor": "Luisa Gutiérrez",
         "genero": "Arte",
@@ -234,7 +218,6 @@
         "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPEAhNehErwD5Buz-AIffRN8UyA3oynWuUGE8PePqggInUfwdk"
       },
       {
-        "id":"19",
         "titulo": "Cocina del mundo",
         "autor": "Chef Ricardo",
         "genero": "Gastronomía",
@@ -247,7 +230,6 @@
         "imagen": "https://www.juanbohon.cl/wp-content/uploads/2020/09/image002.jpg"
       },
       {
-        "id":"20",
         "titulo": "Poemas del alma",
         "autor": "Gabriela Mistral",
         "genero": "Poesía",
@@ -260,7 +242,6 @@
         "imagen": "https://www.poemas-del-alma.com/blog/wp-content/uploads/2023/01/mistral.jpg"
       },
       {
-        "id":"21",
         "titulo": "El último samurái",
         "autor": "Tom Cruise",
         "genero": "Historia",
@@ -273,7 +254,6 @@
         "imagen": "https://www.originalfilmart.com/cdn/shop/products/LastSamurai_2003_teaser_original_film_art_5000x.jpg?v=1610595243"
       },
       {
-        "id":"22",
         "titulo": "La isla misteriosa",
         "autor": "Julio Verne",
         "genero": "Aventura",
@@ -286,7 +266,6 @@
         "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/8e/49/8e4944bedf745f78bc280f759b0112a7.jpg"
       },
       {
-        "id":"23",
         "titulo": "El retrato de Dorian Gray",
         "autor": "Oscar Wilde",
         "genero": "Drama",
@@ -299,7 +278,6 @@
         "imagen": "https://falabella.scene7.com/is/image/Falabella/gsc_110347578_35873_1?wid=1500&hei=1500&qlt=70"
       },
       {
-        "id":"24",
         "titulo": "Rebelión en la granja",
         "autor": "George Orwell",
         "genero": "Ciencia ficción",
@@ -312,7 +290,6 @@
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_884939-MLC46574428669_062021-F.webp"
       },
       {
-        "id":"25",
         "titulo": "Matar a un ruiseñor",
         "autor": "Harper Lee",
         "genero": "Drama legal",
@@ -325,7 +302,6 @@
         "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/fc/ca/fccabb1ecb9cf1df055f8f8898a4f311.jpg"
       },
       {
-        "id":"26",
         "titulo": "El señor de los anillos",
         "autor": "J.R.R. Tolkien",
         "genero": "Fantasía",
@@ -338,7 +314,6 @@
         "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/66/1a/661a3760157941a94cb8db3f5a9d5060.jpg"
       },
       {
-        "id":"27",
         "titulo": "Crónica de una muerte anunciada",
         "autor": "Gabriel García Márquez",
         "genero": "Ciencia ficción",
@@ -351,7 +326,6 @@
         "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/30/2e/302ec58225bc7691ec36ac3bf1697efc.jpg"
       },
       {
-        "id":"28",
         "titulo": "El nombre de la rosa",
         "autor": "Umberto Eco",
         "genero": "Misterio",
@@ -364,7 +338,6 @@
         "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/44/51/4451db7bb092a71eb16850488d5f67e0.jpg"
       },
       {
-        "id":"29",
         "titulo": "Orgullo y prejuicio",
         "autor": "Jane Austen",
         "genero": "Romance",
@@ -377,7 +350,6 @@
         "imagen": "https://falabella.scene7.com/is/image/Falabella/gsc_115230639_1048288_1?wid=1500&hei=1500&qlt=70"
       },
       {
-        "id":"30",
         "titulo": "Cien años de soledad",
         "autor": "Gabriel García Márquez",
         "genero": "Ciencia ficción",
@@ -390,7 +362,7 @@
         "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/b9/d5/b9d5d415d11423d0f9e98074ee6997d9.jpg"
       },
       {
-        "id":"31",
+        
         "titulo": "Las aventuras de Sherlock Holmes",
         "autor": "Arthur Conan Doyle",
         "genero": "Detective",
@@ -403,7 +375,6 @@
         "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/60/4c/604c6aeba07c02fee242e90144451eb9.jpg"
       },
       {
-        "id":"32",
         "titulo": "El gran Gatsby",
         "autor": "F. Scott Fitzgerald",
         "genero": "Ciencia ficción",
@@ -416,7 +387,6 @@
         "imagen": "https://falabella.scene7.com/is/image/Falabella/gsc_110346454_26094_1?wid=1500&hei=1500&qlt=70"
       },
       {
-        "id":"33",
         "titulo": "Don Quijote de la Mancha",
         "autor": "Miguel de Cervantes",
         "genero": "Clásico español",
@@ -429,7 +399,6 @@
         "imagen": "https://falabella.scene7.com/is/image/Falabella/gsc_121410099_3024149_1?wid=1500&hei=1500&qlt=70"
       },
       {
-        "id":"34",
         "titulo": "Moby Dick",
         "autor": "Herman Melville",
         "genero": "Aventura",
@@ -442,7 +411,6 @@
         "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/f5/12/f5122b311a05caa38b435662f9aa83b3.jpg"
       },
       {
-        "id":"35",
         "titulo": "Frankenstein",
         "autor": "Mary Shelley",
         "genero": "Ciencia ficción",
@@ -455,7 +423,6 @@
         "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Frankenstein_poster_1931.jpg/640px-Frankenstein_poster_1931.jpg"
       },
       {
-        "id":"36",
         "titulo": "Las crónicas de Narnia",
         "autor": "C.S. Lewis",
         "genero": "Fantasía",
@@ -468,7 +435,7 @@
         "imagen": "https://www.recomiendolibros.cl/cdn/shop/products/1Afvgv5qwML-XQoZwTYtjij1tHCx-Lxqa.jpg?v=1690934975"
       },
       {
-        "id":"37",
+
         "titulo": "Drácula",
         "autor": "Bram Stoker",
         "genero": "Novela",
@@ -481,7 +448,6 @@
         "imagen": "https://assets-global.website-files.com/6034d7d1f3e0f52c50b2adee/62545414f3a6fb9f5d120730_6034d7d1f3e0f55ec6b2b1da_Dracula-bram-stocker-editorial-alma.jpeg"
       },
       {
-        "id":"38",
         "titulo": "Robinson Crusoe",
         "autor": "Daniel Defoe",
         "genero": "Aventura",
@@ -494,7 +460,6 @@
         "imagen": "https://tienda.zigzag.cl/pub/media/catalog/product/cache/f40365484e36b02d74dc5711a111d955/9/7/9789561230521_1_n8kezo9rhzhemoid.jpg"
       },
       {
-        "id":"39",
         "titulo": "La vuelta al mundo en 80 días",
         "autor": "Julio Verne",
         "genero": "Aventura",

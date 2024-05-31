@@ -36,21 +36,3 @@ const ItemDetail = ({libro}) => {
 }
 
 export default ItemDetail;
-  /*
-            <div className="mb-3 border-0" style={{ maxWidth: "440px" }}>
-                    <div className="row g-0">                  
-                        <div className="col-md-4 offset-md-2">
-                            <img src={libro.imagen} className="img-fluid rounded-start" alt={libro.titulo}/>
-                        </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">       {libro.titulo}</h5>
-                                    <p  className="card-text">Autor:  {libro.autor}</p>
-                                    <p  className="card-text">Genero: {libro.genero}</p>
-                                   <p className="card-text">Precio: {Number(libro.precio).toLocaleString('es-CL', { style: 'currency', currency: 'CLP' })}</p>
-                                    <ItemCount stock= {libro.stock} />  
-                                </div>
-                            </div>       
-                    </div> 
-            </div>       
-    */
