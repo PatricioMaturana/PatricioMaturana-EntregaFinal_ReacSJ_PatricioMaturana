@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+
+body{
+  margin: 5px;
+  text-shadow: 1px 1px 2px gray;
+}
+p{
+  font-size: 16px;
+  margin-bottom: 0px !important;
+}
+
+/*Establesco el tamaño y el número de columnas en una cuadrícula.*/
+.contenedor{
+  max-width: 1200px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* oculto lo que queda fuera del .contenedor */
+  contain: paint;
+}
+ 
+.contenedor .item-contenedor{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap:15px;
+  grid-row-gap: 15px;
+}
+
+.input{
+  padding: 15px;
+}
+.boton, .btnBuscar, .btn-pagar{
+  background-color:#04AA6D;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 4px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 1px 2px  #999;
+  border-radius: 3px;
+}
+.btnBuscar{
+  padding: 2px 20px;
+}
+
+.boton:hover, .btnBuscar:hover,.restaCantidad:hover, .sumaCantidad:hover, .btn-pagar:hover, .btn-eliminar:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boton:hover, .btnBuscar:hover, .restaCantidad:hover, .sumaCantidad:hover, .btn-pagar:hover{background-color: #3e8e41}
+
+.boton:active, .btnBuscar:active, .restaCantidad:active, .sumaCantidad:active, .btn-pagar:active{
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 1px 2px  #999;
+}
+
+.btn-eliminar:active{
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 1px 2px  #999;
+}
+.btn-eliminar{
+  margin-left: 20px;
+}
+
+
+.card {
+  /* Establece una escala inicial del 1 (sin zoom) */
+  transform: scale(1);
+  /* Transición suave para un efecto de zoom gradual */
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  /* Aplica un zoom al pasar el puntero del mouse */
+  transform: scale(1.1);
+  z-index: 2000;
+}
+
+.carritoImagen{
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectorCantidad{
+  display: flex;
+  justify-content:center;
+}
+
+.selectorCantidad, .carritoImagen{
+  display: flex;
+  align-items: center;
+  padding: 0px 2px;    
+  /*display: flex;
+  justify-content: center;*/
+}
+
+.carritoCantidadItem input{
+  border:none;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  
+}
+
+.restaCantidad, .sumaCantidad{
+  background-color:#04AA6D;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+
+.headerCarrito{
+  text-align: center;
+}
+
+.h2Carrito{
+  font-size: 14px;
+  text-align: center;
+  padding :5px;
+}
+
+.SectionCarro{
+  padding: 5px 2px 5px 0px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.contenedorCarro{
+  padding: 5px 2px 5px 0px;
+  border: 1px solid #ccc;
+  height:30%;
+}
+
+.headerCarrito{
+  font-size: 14px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  padding: 2px;
+  border-radius: 40px;
+  border: 2px solid white;
+}
+
+/*inicia Código efecto logo*/
+.logo {
+  animation-duration: 5s;
+  animation-name: logo;
+  animation-iteration-count: infinite;
+}
+
+.navbar-toggler {
+  color: orange;
+  border-radius: 5px;
+  border: 2px solid orange;
+}
+
+@keyframes logo {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotateY(360deg);
+  }
+}
+/*Fin Código efecto logo*/
+@media only screen and (max-width: 579px) {
+  /*destaca con un bloque las opciones del menu hamburguesa, y cambia el color para visualizar mejor*/
+  .nav-item :hover {
+    background-color: hwb(43 31% 8%/0.167);
+    color: hwb(36 97% 1%);
+  }
+  /*Fin - destaca con un bloque las opciones del menu hamburguesa*/
+}
+
+.footer {
+  height: 110px;
+  background-color: #040D12;
+  padding: 20px;
+  border: 1px solid white !important;
+  color: orange;
+  text-align: right;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer p {
+  font-size: 16px;
+}
+.footer .redes {
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: #040D12;
+  border: 1px solid white !important;
+}
+.navbar .navbar-toggler-icon {
+  border: 1px solid white !important;
+  background-color: black;
+}
+
+.nav-link {
+  color: orange;
+  text-shadow: 0px 0px 10px rgba(219, 247, 7, 0.9215686275);
+  background-color: #040D12;
+  display: flex;
+  justify-content: center;
+}
